@@ -1,0 +1,87 @@
+body{
+    margin: 0; 
+    padding: 0;
+    background-color: rgba(200, 195, 204, 0.878);
+}
+/* Navbar */
+.nav-link:hover{
+    border:2px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    background-color: rgba(202, 70, 70, 0.722);
+    border-style: inset;
+
+}
+/* Home */
+.image{
+    border:5px solid rgba(202, 70, 70, 0.722);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+   
+}
+.image:hover{
+
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border:5px solid rgba(202, 70, 70, 0.722);
+    
+}
+
+#hvr{
+    background-color: rgba(202, 70, 70, 0.722);
+}
+#hvr:hover{
+   
+    color: rgba(202, 70, 70, 0.722);
+    background-color: black;
+}
+/* About */
+strong{
+    color: rgba(202, 70, 70, 0.722);
+}
+/* Skill */
+.skill{
+    background-color: rgba(205, 189, 189, 0.078);
+    color: rgba(202, 70, 70, 0.722);
+    box-shadow: 5px 5px 15px rgba(202, 70, 70, 0.722);
+    
+}
+.skill .skill_logo{
+    height: 80%;
+}
+/* Project */
+.card:hover{
+    cursor: pointer;
+}
+/* Contact */
+#ic{
+    color: rgba(255, 255, 255, 0.199);
+    font-size: x-large;
+}
+.sp{
+    font-style: italic;
+    font-size: large;
+}
+#linkedin{
+    font-size: x-large;
+    color: rgba(255, 255, 255, 0.562);
+}
+#linkedin:hover{
+    color:blue;
+    cursor: pointer;
+}
+#github{
+    font-size: xx-large;
+    color: white;
+}
+#github:hover{
+    color: rgb(99, 101, 103);
+    cursor: pointer;
+}
+
+
+
+
